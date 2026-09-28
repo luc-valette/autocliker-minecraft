@@ -1,0 +1,24 @@
+{
+  "presets": {
+    "from bloc de cuivre to plastrons": {
+      "description": "Transforme 4 blocs de cuivres en plastrons",
+      "map": "macbook_pro_27_pouces_1080p_16_9",
+      "mode": "complet",
+      "recipe": "Plastron",
+      "phase1_slots": "32-35",
+      "phase1_stack_size": 64,
+      "phase2_slots": "0-35",
+      "cycles": 4
+    },
+    "from bloc de fer to seau": {
+      "description": "Transforme 4 stacks de blocs de fer en seaux",
+      "map": "macbook_pro_27_pouces_1080p_16_9",
+      "mode": "complet",
+      "recipe": "Seau",
+      "phase1_slots": "32-35",
+      "phase1_stack_size": 64,
+      "phase2_slots": "0-35",
+      "cycles": 12
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "platform": "mac",
+  "timings": {
+    "action_delay": 0.3,
+    "shift_delay": 0.3,
+    "craft_output_delay": 0.3,
+    "drop_delay": 0.3,
+    "countdown": 5,
+    "gui_check_interval": 1,
+    "gui_tolerance": 60
+  },
+  "maps": {
+    "macbook_pro_27_pouces_1080p_16_9": {
+      "craft_1": [
+        1069,
+        340
+      ],
+      "craft_2": [
+        1139,
+        338
+      ],
+      "craft_3": [
+        1210,
+        339
+      ],
+      "craft_4": [
+        1068,
+        410
+      ],
+      "craft_5": [
+        1136,
+        408
+      ],
+      "craft_6": [
+        1206,
+        409
+      ],
+      "craft_7": [
+        1066,
+        481
+      ],
+      "craft_8": [
+        1135,
+        479
+      ],
+      "craft_9": [
+        1207,
+        482
+      ],
+      "output": [
+        1442,
+        411
+      ],
+      "drop_zone": [
+        1761,
+        424
+      ],
+      "gui_refs": [
+        {
+          "pos": [
+            935,
+            263
+          ],
+          "color": [
+            191,
+            191,
+            191
+          ]
+        },
+        {
+          "pos": [
+            338,
+            673
+          ],
+          "color": [
+            191,
+            191,
+            191
+          ]
+        },
+        {
+          "pos": [
+            226,
+            717
+          ],
+          "color": [
+            128,
+            128,
+            128
+          ]
+        }
+      ],
+      "inv_origin": [
+        977,
+        606
+      ],
+      "inv_spacing": [
+        72,
+        71
+      ],
+      "hotbar_origin": [
+        981,
+        837
+      ],
+      "timings": {
+        "action_delay": 0.15,
+        "shift_delay": 0.15,
+        "craft_output_delay": 0.15,
+        "drop_delay": 0.15,
+        "countdown": 5,
+        "gui_check_interval": 1,
+        "gui_tolerance": 60
+      }
+    },
+    "macbook_pro_14_pouces": {
+      "craft_1": [
+        850,
+        320
+      ],
+      "craft_2": [
+        913,
+        320
+      ],
+      "craft_3": [
+        974,
+        318
+      ],
+      "craft_4": [
+        847,
+        382
+      ],
+      "craft_5": [
+        908,
+        381
+      ],
+      "craft_6": [
+        970,
+        381
+      ],
+      "craft_7": [
+        847,
+        442
+      ],
+      "craft_8": [
+        912,
+        443
+      ],
+      "craft_9": [
+        976,
+        444
+      ],
+      "output": [
+        1180,
+        382
+      ],
+      "drop_zone": [
+        1423,
+        357
+      ],
+      "gui_refs": [
+        {
+          "pos": [
+            747,
+            266
+          ],
+          "color": [
+            198,
+            198,
+            198
+          ]
+        },
+        {
+          "pos": [
+            212,
+            614
+          ],
+          "color": [
+            198,
+            198,
+            198
+          ]
+        },
+        {
+          "pos": [
+            115,
+            642
+          ],
+          "color": [
+            139,
+            139,
+            139
+          ]
+        }
+      ],
+      "inv_origin": [
+        772,
+        554
+      ],
+      "inv_spacing": [
+        63,
+        61
+      ],
+      "hotbar_origin": [
+        769,
+        753
+      ],
+      "timings": {
+        "action_delay": 0.05,
+        "shift_delay": 0.05,
+        "craft_output_delay": 0.05,
+        "drop_delay": 0.05,
+        "countdown": 5,
+        "gui_check_interval": 1,
+        "gui_tolerance": 60
+      }
+    }
+  },
+  "active_map": "macbook_pro_14_pouces"
+}

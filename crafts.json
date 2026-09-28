@@ -1,0 +1,206 @@
+{
+  "categories": [
+    {
+      "label": "Armures (fer, or, cuivre, diamant)",
+      "recipes": [
+        {
+          "name": "Casque",
+          "pattern": ["craft_1", "craft_2", "craft_3", "craft_4", "craft_6"],
+          "stack_size": 1,
+          "display": ["X X X", "X . X", ". . ."]
+        },
+        {
+          "name": "Plastron",
+          "pattern": ["craft_1", "craft_3", "craft_4", "craft_5", "craft_6", "craft_7", "craft_8", "craft_9"],
+          "stack_size": 1,
+          "display": ["X . X", "X X X", "X X X"]
+        },
+        {
+          "name": "Jambieres",
+          "pattern": ["craft_1", "craft_2", "craft_3", "craft_4", "craft_6", "craft_7", "craft_9"],
+          "stack_size": 1,
+          "display": ["X X X", "X . X", "X . X"]
+        },
+        {
+          "name": "Bottes",
+          "pattern": ["craft_4", "craft_6", "craft_7", "craft_9"],
+          "stack_size": 1,
+          "display": [". . .", "X . X", "X . X"]
+        }
+      ]
+    },
+    {
+      "label": "Outils (fer, or, cuivre, diamant) [L=lingot, B=baton]",
+      "recipes": [
+        {
+          "name": "Epee",
+          "pattern": ["craft_2", "craft_5", "craft_8"],
+          "stack_size": 1,
+          "display": [". L .", ". L .", ". B ."],
+          "note": "Slots: lingot, lingot, baton"
+        },
+        {
+          "name": "Pioche",
+          "pattern": ["craft_1", "craft_2", "craft_3", "craft_5", "craft_8"],
+          "stack_size": 1,
+          "display": ["L L L", ". B .", ". B ."],
+          "note": "Slots: lingot, lingot, lingot, baton, baton"
+        },
+        {
+          "name": "Hache",
+          "pattern": ["craft_1", "craft_2", "craft_4", "craft_5", "craft_8"],
+          "stack_size": 1,
+          "display": ["L L .", "L B .", ". B ."],
+          "note": "Slots: lingot, lingot, lingot, baton, baton"
+        },
+        {
+          "name": "Houe",
+          "pattern": ["craft_1", "craft_2", "craft_5", "craft_8"],
+          "stack_size": 1,
+          "display": ["L L .", ". B .", ". B ."],
+          "note": "Slots: lingot, lingot, baton, baton"
+        },
+        {
+          "name": "Pelle",
+          "pattern": ["craft_2", "craft_5", "craft_8"],
+          "stack_size": 1,
+          "display": [". L .", ". B .", ". B ."],
+          "note": "Slots: lingot, baton, baton"
+        },
+        {
+          "name": "Lance",
+          "pattern": ["craft_3", "craft_5", "craft_7"],
+          "stack_size": 1,
+          "display": [". . L", ". B .", "B . ."],
+          "note": "Slots: lingot, baton, baton"
+        }
+      ]
+    },
+    {
+      "label": "Armes speciales",
+      "recipes": [
+        {
+          "name": "Masse [H=noyau lourd, R=baton de brise]",
+          "pattern": ["craft_2", "craft_5"],
+          "stack_size": 1,
+          "display": [". H .", ". R .", ". . ."],
+          "note": "Slots: noyau lourd, baton de brise"
+        }
+      ]
+    },
+    {
+      "label": "Blocs et conversions (tous minerais)",
+      "recipes": [
+        {
+          "name": "Bloc (9 lingots -> 1 bloc)",
+          "pattern": ["craft_1", "craft_2", "craft_3", "craft_4", "craft_5", "craft_6", "craft_7", "craft_8", "craft_9"],
+          "stack_size": 64,
+          "display": ["X X X", "X X X", "X X X"]
+        }
+      ]
+    },
+    {
+      "label": "Fer",
+      "recipes": [
+        {
+          "name": "Seau",
+          "pattern": ["craft_4", "craft_6", "craft_8"],
+          "stack_size": 16,
+          "display": [". . .", "X . X", ". X ."]
+        },
+        {
+          "name": "Barres de fer (6 -> 16)",
+          "pattern": ["craft_1", "craft_2", "craft_3", "craft_4", "craft_5", "craft_6"],
+          "stack_size": 64,
+          "display": ["X X X", "X X X", ". . ."]
+        },
+        {
+          "name": "Porte en fer (6 -> 3)",
+          "pattern": ["craft_1", "craft_2", "craft_4", "craft_5", "craft_7", "craft_8"],
+          "stack_size": 64,
+          "display": ["X X .", "X X .", "X X ."]
+        },
+        {
+          "name": "Trappe en fer",
+          "pattern": ["craft_1", "craft_2", "craft_4", "craft_5"],
+          "stack_size": 64,
+          "display": ["X X .", "X X .", ". . ."]
+        },
+        {
+          "name": "Chaudron",
+          "pattern": ["craft_1", "craft_3", "craft_4", "craft_6", "craft_7", "craft_8", "craft_9"],
+          "stack_size": 64,
+          "display": ["X . X", "X . X", "X X X"]
+        },
+        {
+          "name": "Wagonnet",
+          "pattern": ["craft_4", "craft_6", "craft_7", "craft_8", "craft_9"],
+          "stack_size": 1,
+          "display": [". . .", "X . X", "X X X"]
+        },
+        {
+          "name": "Cisailles",
+          "pattern": ["craft_2", "craft_4"],
+          "stack_size": 1,
+          "display": [". X .", "X . .", ". . ."]
+        },
+        {
+          "name": "Plaque de pression lourde",
+          "pattern": ["craft_1", "craft_2"],
+          "stack_size": 64,
+          "display": ["X X .", ". . .", ". . ."]
+        },
+        {
+          "name": "Enclume [O=bloc, L=lingot]",
+          "pattern": ["craft_1", "craft_2", "craft_3", "craft_5", "craft_7", "craft_8", "craft_9"],
+          "stack_size": 1,
+          "display": ["O O O", ". L .", "L L L"],
+          "note": "Slots: bloc, bloc, bloc, lingot, lingot, lingot, lingot"
+        },
+        {
+          "name": "Bouclier [L=lingot, P=planche]",
+          "pattern": ["craft_1", "craft_2", "craft_3", "craft_4", "craft_5", "craft_6", "craft_8"],
+          "stack_size": 1,
+          "display": ["P L P", "P P P", ". P ."],
+          "note": "Slots: planche, lingot, planche, planche, planche, planche, planche"
+        },
+        {
+          "name": "Tailleur de pierre [L=lingot, S=pierre]",
+          "pattern": ["craft_5", "craft_7", "craft_8", "craft_9"],
+          "stack_size": 64,
+          "display": [". . .", ". L .", "S S S"],
+          "note": "Slots: lingot, pierre, pierre, pierre"
+        }
+      ]
+    },
+    {
+      "label": "Or",
+      "recipes": [
+        {
+          "name": "Plaque de pression legere",
+          "pattern": ["craft_1", "craft_2"],
+          "stack_size": 64,
+          "display": ["X X .", ". . .", ". . ."]
+        }
+      ]
+    },
+    {
+      "label": "Cuivre",
+      "recipes": [
+        {
+          "name": "Paratonnerre",
+          "pattern": ["craft_2", "craft_5", "craft_8"],
+          "stack_size": 64,
+          "display": [". X .", ". X .", ". X ."]
+        },
+        {
+          "name": "Coffre en cuivre [L=cuivre, C=coffre]",
+          "pattern": ["craft_1", "craft_2", "craft_3", "craft_4", "craft_5", "craft_6", "craft_7", "craft_8", "craft_9"],
+          "stack_size": 64,
+          "display": ["L L L", "L C L", "L L L"],
+          "note": "Slots: cuivre x4, coffre, cuivre x4"
+        }
+      ]
+    }
+  ]
+}
